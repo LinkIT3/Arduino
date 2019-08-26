@@ -1,6 +1,6 @@
 #include <LiquidCrystal_I2C.h>
 
-LiquidCrystal_I2C lcd (0x27, 16, 2);
+LiquidCrystal_I2C lcd (0x27, 16, 2);      //Si deve inserire, nella parentesi, l'indirizzo del display lcd
 
     void scrivi(String m)                 //Funzione che permette di scrivere
     {                                     //delle stringhe sul display lcd
